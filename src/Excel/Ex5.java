@@ -1,0 +1,37 @@
+package Excel;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.EncryptedDocumentException;
+import org.apache.poi.ss.usermodel.WorkbookFactory;
+
+public class Ex5 {
+public static void main(String[] args) throws EncryptedDocumentException, IOException {
+//	FileInputStream File = new FileInputStream("C:\\Users\\hp\\OneDrive\\Desktop\\Auto.xlsx");
+//	
+//	String Data = WorkbookFactory.create(File).getSheet("Sheet1").getRow(0).getCell(0).getStringCellValue();
+//
+//	System.out.println(Data);
+	
+//	for(int i=0;i<11;i++) {
+//		FileInputStream File = new FileInputStream("C:\\Users\\hp\\OneDrive\\Desktop\\Auto.xlsx");
+//		String Data = WorkbookFactory.create(File).getSheet("Sheet1").getRow(i).getCell(0).getStringCellValue();
+//		System.out.println(i+" "+Data);
+//	}
+//	
+	for(int i=0;i<11;i++) {
+		FileInputStream File = new FileInputStream("C:\\Users\\hp\\OneDrive\\Desktop\\Auto.xlsx");
+		String Data = WorkbookFactory.create(File).getSheet("Sheet1").getRow(i).getCell(2).getStringCellValue();
+		System.out.println(i+" "+Data);
+	}
+	
+	
+	
+	
+	
+	
+	
+}
+}

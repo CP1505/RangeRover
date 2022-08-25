@@ -1,0 +1,37 @@
+
+<html>
+<body>
+
+<h1>ObiWanKanobi is alive</h1>
+<br>
+<h2>Dead or Alive</h2>
+<br>
+<h1>StarWar Details</h1>
+
+<lable>Username<lable>
+<input type="text"id="username">
+<br>
+<br>
+<br>
+<lable>Password<lable>
+<input type="text"id="Password">
+
+<br>
+<br>
+<br>
+<lable>Dead<lable>
+<input type="radio"id="Dead" name="Dead" value="Dead" >
+<br>
+<br>
+<lable>Alive<lable>
+<input type="radio"id="Alive" name="Alive" value="Alive" >
+<br>
+<br>
+
+</body>
+</html>
+
+
+
+
+
